@@ -1,0 +1,744 @@
+[
+  {
+    "name": "The Shawshank Redemption",
+    "year": 1994,
+    "genres": [
+      "Drama"
+    ],
+    "detail": "The Shawshank Redemption (1994) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ]
+  },
+  {
+    "name": "The Godfather",
+    "year": 1972,
+    "genres": [
+      "Crime"
+    ],
+    "detail": "The Godfather (1972) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan"
+    ]
+  },
+  {
+    "name": "The Dark Knight",
+    "year": 2008,
+    "genres": [
+      "Action"
+    ],
+    "detail": "The Dark Knight (2008) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ]
+  },
+  {
+    "name": "Pulp Fiction",
+    "year": 1994,
+    "genres": [
+      "Crime"
+    ],
+    "detail": "Pulp Fiction (1994) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Uma Thurman"
+    ]
+  },
+  {
+    "name": "Forrest Gump",
+    "year": 1994,
+    "genres": [
+      "Drama"
+    ],
+    "detail": "Forrest Gump (1994) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise"
+    ]
+  },
+  {
+    "name": "Inception",
+    "year": 2010,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "detail": "Inception (2010) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page"
+    ]
+  },
+  {
+    "name": "Fight Club",
+    "year": 1999,
+    "genres": [
+      "Drama"
+    ],
+    "detail": "Fight Club (1999) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter"
+    ]
+  },
+  {
+    "name": "The Matrix",
+    "year": 1999,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "detail": "The Matrix (1999) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ]
+  },
+  {
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "genres": [
+      "Fantasy"
+    ],
+    "detail": "The Lord of the Rings: The Fellowship of the Ring (2001) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen"
+    ]
+  },
+  {
+    "name": "The Lord of the Rings: The Two Towers",
+    "year": 2002,
+    "genres": [
+      "Fantasy"
+    ],
+    "detail": "The Lord of the Rings: The Two Towers (2002) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen"
+    ]
+  },
+  {
+    "name": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "genres": [
+      "Fantasy"
+    ],
+    "detail": "The Lord of the Rings: The Return of the King (2003) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen"
+    ]
+  },
+  {
+    "name": "The Empire Strikes Back",
+    "year": 1980,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "detail": "The Empire Strikes Back (1980) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher"
+    ]
+  },
+  {
+    "name": "Star Wars: A New Hope",
+    "year": 1977,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "detail": "Star Wars: A New Hope (1977) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher"
+    ]
+  },
+  {
+    "name": "Interstellar",
+    "year": 2014,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "detail": "Interstellar (2014) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ]
+  },
+  {
+    "name": "The Prestige",
+    "year": 2006,
+    "genres": [
+      "Drama"
+    ],
+    "detail": "The Prestige (2006) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Hugh Jackman",
+      "Christian Bale",
+      "Scarlett Johansson"
+    ]
+  },
+  {
+    "name": "The Green Mile",
+    "year": 1999,
+    "genres": [
+      "Drama"
+    ],
+    "detail": "The Green Mile (1999) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Tom Hanks",
+      "Michael Clarke Duncan",
+      "David Morse"
+    ]
+  },
+  {
+    "name": "Se7en",
+    "year": 1995,
+    "genres": [
+      "Crime"
+    ],
+    "detail": "Se7en (1995) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Brad Pitt",
+      "Morgan Freeman",
+      "Gwyneth Paltrow"
+    ]
+  },
+  {
+    "name": "The Silence of the Lambs",
+    "year": 1991,
+    "genres": [
+      "Thriller"
+    ],
+    "detail": "The Silence of the Lambs (1991) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Scott Glenn"
+    ]
+  },
+  {
+    "name": "Saving Private Ryan",
+    "year": 1998,
+    "genres": [
+      "War"
+    ],
+    "detail": "Saving Private Ryan (1998) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Tom Hanks",
+      "Matt Damon",
+      "Tom Sizemore"
+    ]
+  },
+  {
+    "name": "Schindler's List",
+    "year": 1993,
+    "genres": [
+      "Drama"
+    ],
+    "detail": "Schindler's List (1993) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Liam Neeson",
+      "Ben Kingsley",
+      "Ralph Fiennes"
+    ]
+  },
+  {
+    "name": "Gladiator",
+    "year": 2000,
+    "genres": [
+      "Action"
+    ],
+    "detail": "Gladiator (2000) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen"
+    ]
+  },
+  {
+    "name": "Braveheart",
+    "year": 1995,
+    "genres": [
+      "War"
+    ],
+    "detail": "Braveheart (1995) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Mel Gibson",
+      "Sophie Marceau",
+      "Patrick McGoohan"
+    ]
+  },
+  {
+    "name": "Goodfellas",
+    "year": 1990,
+    "genres": [
+      "Crime"
+    ],
+    "detail": "Goodfellas (1990) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Ray Liotta",
+      "Robert De Niro",
+      "Joe Pesci"
+    ]
+  },
+  {
+    "name": "The Departed",
+    "year": 2006,
+    "genres": [
+      "Crime"
+    ],
+    "detail": "The Departed (2006) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Matt Damon",
+      "Jack Nicholson"
+    ]
+  },
+  {
+    "name": "The Wolf of Wall Street",
+    "year": 2013,
+    "genres": [
+      "Biography"
+    ],
+    "detail": "The Wolf of Wall Street (2013) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Jonah Hill",
+      "Margot Robbie"
+    ]
+  },
+  {
+    "name": "The Social Network",
+    "year": 2010,
+    "genres": [
+      "Drama"
+    ],
+    "detail": "The Social Network (2010) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Jesse Eisenberg",
+      "Andrew Garfield",
+      "Rooney Mara"
+    ]
+  },
+  {
+    "name": "Whiplash",
+    "year": 2014,
+    "genres": [
+      "Drama"
+    ],
+    "detail": "Whiplash (2014) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Miles Teller",
+      "J.K. Simmons",
+      "Melissa Benoist"
+    ]
+  },
+  {
+    "name": "Parasite",
+    "year": 2019,
+    "genres": [
+      "Thriller"
+    ],
+    "detail": "Parasite (2019) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Song Kang-ho",
+      "Choi Woo-shik",
+      "Park So-dam"
+    ]
+  },
+  {
+    "name": "Joker",
+    "year": 2019,
+    "genres": [
+      "Crime"
+    ],
+    "detail": "Joker (2019) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz"
+    ]
+  },
+  {
+    "name": "Mad Max: Fury Road",
+    "year": 2015,
+    "genres": [
+      "Action"
+    ],
+    "detail": "Mad Max: Fury Road (2015) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult"
+    ]
+  },
+  {
+    "name": "La La Land",
+    "year": 2016,
+    "genres": [
+      "Romance"
+    ],
+    "detail": "La La Land (2016) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Ryan Gosling",
+      "Emma Stone",
+      "John Legend"
+    ]
+  },
+  {
+    "name": "The Lion King",
+    "year": 1994,
+    "genres": [
+      "Animation"
+    ],
+    "detail": "The Lion King (1994) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Matthew Broderick",
+      "James Earl Jones",
+      "Jeremy Irons"
+    ]
+  },
+  {
+    "name": "Toy Story",
+    "year": 1995,
+    "genres": [
+      "Animation"
+    ],
+    "detail": "Toy Story (1995) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Annie Potts"
+    ]
+  },
+  {
+    "name": "Toy Story 3",
+    "year": 2010,
+    "genres": [
+      "Animation"
+    ],
+    "detail": "Toy Story 3 (2010) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Joan Cusack"
+    ]
+  },
+  {
+    "name": "Up",
+    "year": 2009,
+    "genres": [
+      "Animation"
+    ],
+    "detail": "Up (2009) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Ed Asner",
+      "Jordan Nagai",
+      "Christopher Plummer"
+    ]
+  },
+  {
+    "name": "Coco",
+    "year": 2017,
+    "genres": [
+      "Animation"
+    ],
+    "detail": "Coco (2017) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Anthony Gonzalez",
+      "Gael García Bernal",
+      "Benjamin Bratt"
+    ]
+  },
+  {
+    "name": "Inside Out",
+    "year": 2015,
+    "genres": [
+      "Animation"
+    ],
+    "detail": "Inside Out (2015) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Amy Poehler",
+      "Phyllis Smith",
+      "Bill Hader"
+    ]
+  },
+  {
+    "name": "WALL·E",
+    "year": 2008,
+    "genres": [
+      "Animation"
+    ],
+    "detail": "WALL·E (2008) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Ben Burtt",
+      "Elissa Knight",
+      "Jeff Garlin"
+    ]
+  },
+  {
+    "name": "Finding Nemo",
+    "year": 2003,
+    "genres": [
+      "Animation"
+    ],
+    "detail": "Finding Nemo (2003) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Albert Brooks",
+      "Ellen DeGeneres",
+      "Alexander Gould"
+    ]
+  },
+  {
+    "name": "The Incredibles",
+    "year": 2004,
+    "genres": [
+      "Animation"
+    ],
+    "detail": "The Incredibles (2004) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Craig T. Nelson",
+      "Holly Hunter",
+      "Samuel L. Jackson"
+    ]
+  },
+  {
+    "name": "Avatar",
+    "year": 2009,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "detail": "Avatar (2009) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Sam Worthington",
+      "Zoe Saldaña",
+      "Sigourney Weaver"
+    ]
+  },
+  {
+    "name": "Titanic",
+    "year": 1997,
+    "genres": [
+      "Romance"
+    ],
+    "detail": "Titanic (1997) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Kate Winslet",
+      "Billy Zane"
+    ]
+  },
+  {
+    "name": "Avengers: Infinity War",
+    "year": 2018,
+    "genres": [
+      "Action"
+    ],
+    "detail": "Avengers: Infinity War (2018) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Chris Hemsworth"
+    ]
+  },
+  {
+    "name": "Avengers: Endgame",
+    "year": 2019,
+    "genres": [
+      "Action"
+    ],
+    "detail": "Avengers: Endgame (2019) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Scarlett Johansson"
+    ]
+  },
+  {
+    "name": "Jurassic Park",
+    "year": 1993,
+    "genres": [
+      "Adventure"
+    ],
+    "detail": "Jurassic Park (1993) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Sam Neill",
+      "Laura Dern",
+      "Jeff Goldblum"
+    ]
+  },
+  {
+    "name": "Back to the Future",
+    "year": 1985,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "detail": "Back to the Future (1985) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Michael J. Fox",
+      "Christopher Lloyd",
+      "Lea Thompson"
+    ]
+  },
+  {
+    "name": "The Truman Show",
+    "year": 1998,
+    "genres": [
+      "Drama"
+    ],
+    "detail": "The Truman Show (1998) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Jim Carrey",
+      "Laura Linney",
+      "Ed Harris"
+    ]
+  },
+  {
+    "name": "No Country for Old Men",
+    "year": 2007,
+    "genres": [
+      "Thriller"
+    ],
+    "detail": "No Country for Old Men (2007) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Tommy Lee Jones",
+      "Javier Bardem",
+      "Josh Brolin"
+    ]
+  },
+  {
+    "name": "The Pianist",
+    "year": 2002,
+    "genres": [
+      "Drama"
+    ],
+    "detail": "The Pianist (2002) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Adrien Brody",
+      "Thomas Kretschmann",
+      "Frank Finlay"
+    ]
+  },
+  {
+    "name": "Spirited Away",
+    "year": 2001,
+    "genres": [
+      "Animation"
+    ],
+    "detail": "Spirited Away (2001) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Rumi Hiiragi",
+      "Miyu Irino",
+      "Mari Natsuki"
+    ]
+  },
+  {
+    "name": "Terminator 2: Judgment Day",
+    "year": 1991,
+    "genres": [
+      "Action"
+    ],
+    "detail": "Terminator 2: Judgment Day (1991) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton",
+      "Edward Furlong"
+    ]
+  },
+  {
+    "name": "Alien",
+    "year": 1979,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "detail": "Alien (1979) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Sigourney Weaver",
+      "Tom Skerritt",
+      "Veronica Cartwright"
+    ]
+  },
+  {
+    "name": "Aliens",
+    "year": 1986,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "detail": "Aliens (1986) — synopsis pending.",
+    "image": "",
+    "cast": [
+      "Sigourney Weaver",
+      "Michael Biehn",
+      "Carrie Henn"
+    ]
+  }
+]
