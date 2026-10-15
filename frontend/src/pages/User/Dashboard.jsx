@@ -1,8 +1,7 @@
 
-import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { useGetRecommendationsQuery } from "../../redux/api/users";
+import { useGetRecommendationsQuery, useGetProfileQuery } from "../../redux/api/users";
 
 const Grid = ({ children }) => (
   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">{children}</div>
@@ -26,10 +25,8 @@ const Dashboard = () => {
   const { userInfo } = useSelector((s) => s.auth);
   const { data: recs } = useGetRecommendationsQuery(undefined, { skip: !userInfo });
 
-  const [watchlist, setWatchlist] = useState([]);
-  useEffect(() => {
-    if (userInfo?.watchlist) setWatchlist(userInfo.watchlist);
-  }, [userInfo]);
+  const { data: profile } = useGetProfileQuery(undefined, { skip: !userInfo });
+  const watchlist = profile?.watchlist || [];
 
   return (
     <div className="container mx-auto px-6 py-10">

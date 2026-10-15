@@ -39,7 +39,9 @@ export const logoutUser = async (_req, res) => {
 // PROFILE (GET)
 export const getProfile = async (req, res, next) => {
   try {
-    const u = await User.findById(req.user._id).select('-password');
+    const u = await User.findById(req.user._id)
+      .select('-password')
+      .populate('watchlist', 'name image year genres avgRating numReviews');
     res.json({
       _id: u._id,
       name: u.name,

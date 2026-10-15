@@ -8,6 +8,7 @@ const userSchema = new mongoose.Schema(
     password: { type: String, required: true },
     isAdmin: { type: Boolean, default: false },
     favoriteGenres: [{ type: String }],
+    watchlist: [{ type: mongoose.Schema.Types.ObjectId, ref: "Movie" }],
     isBlocked: { type: Boolean, default: false },
   },
   { timestamps: true }

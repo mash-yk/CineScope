@@ -1,5 +1,5 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import {
   useGetMovieQuery,
   useAddReviewMutation,
@@ -9,8 +9,12 @@ import {
   useDeleteMovieMutation,      // 👈 NEW
   useDeleteReviewMutation,     // 👈 NEW
 } from "../../redux/api/movies";
-import { useBlockUserMutation } from "../../redux/api/users"; // 👈 NEW
-import { addToWatchlist, removeFromWatchlist } from "../../redux/features/movies/moviesSlice";
+import {
+  useBlockUserMutation,
+  useGetProfileQuery,
+  useAddToWatchlistMutation,
+  useRemoveFromWatchlistMutation,
+} from "../../redux/api/users";
 import { useState, useMemo } from "react";
 import { toast } from "react-toastify";
 
@@ -19,13 +23,15 @@ const FALLBACK = "https://dummyimage.com/600x900/222/fff.jpg&text=No+Image";
 export default function MovieDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const dispatch = useDispatch();
   const { userInfo } = useSelector((s) => s.auth || {});
   const isAdmin = !!userInfo?.isAdmin;
 
   const { data: movie, isLoading, isError, refetch } = useGetMovieQuery(id);
-  const watchlist = useSelector((s) => s.movies?.watchlist || []);
-  const inWatchlist = !!watchlist.find((m) => m._id === id);
+  // watchlist is stored on the server, so it survives refreshes and shows on the dashboard
+  const { data: profile } = useGetProfileQuery(undefined, { skip: !userInfo });
+  const [addToWatchlist, { isLoading: adding }] = useAddToWatchlistMutation();
+  const [removeFromWatchlist, { isLoading: removing }] = useRemoveFromWatchlistMutation();
+  const inWatchlist = !!profile?.watchlist?.some((m) => String(m?._id ?? m) === String(id));
 
   const [rating, setRating] = useState(5);
   const [comment, setComment] = useState("");
@@ -57,9 +63,18 @@ export default function MovieDetails() {
 
   const poster = movie.image || FALLBACK;
 
-  const toggleWatchlist = () => {
-    if (inWatchlist) dispatch(removeFromWatchlist(movie._id));
-    else dispatch(addToWatchlist(movie));
+  const toggleWatchlist = async () => {
+    try {
+      if (inWatchlist) {
+        await removeFromWatchlist(movie._id).unwrap();
+        toast.success("Removed from watchlist");
+      } else {
+        await addToWatchlist(movie._id).unwrap();
+        toast.success("Added to watchlist");
+      }
+    } catch (err) {
+      toast.error(err?.data?.message || "Could not update watchlist");
+    }
   };
 
   const requireAuth = () => {
@@ -192,6 +207,7 @@ export default function MovieDetails() {
                 if (!userInfo) return requireAuth();
                 toggleWatchlist();
               }}
+              disabled={adding || removing}
               className="px-3 py-1 rounded-xl border border-white/10"
             >
               {inWatchlist ? "Remove from Watchlist" : "Add to Watchlist"}
